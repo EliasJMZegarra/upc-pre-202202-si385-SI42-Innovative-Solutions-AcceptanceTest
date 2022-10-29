@@ -1,0 +1,19 @@
+Feature: HU06: Comunicación entre vecinos del condominio
+
+Como vecino del condominio 
+quiero comunicar sobre los problemas dentro del edificio con mis demás vecinos 
+para poder acordar una solución.
+
+Escenario: Un vecino notifica sobre el problema de la limpieza en el condominio
+
+Dado que un vecino desea informar sobre el problema del recojo de basura
+Cuando el vecino quiera informar sobre dicho problema 
+Entonces deberá ingresar a la opción de notificaciones
+Y se le mostrará un recuadro donde describirá dicho problema
+
+Escenario: Un vecino notifica sobre una alerta de seguridad en el condominio
+
+Dado que un vecino observa algún evento amenazante o riesgoso 
+Cuando el vecino quiera informar sobre dicho evento
+Entonces deberá ingresar a la opción de urgencias
+Y describir o alertar sobre el suceso 
