@@ -10,8 +10,18 @@ Dado que un usuario vecino quiere realizar el pago de los servicios administrati
 Cuando el usuario vecino decida efectuar el pago deberá ingresar a la opción de Recaudos 
 Entonces se le mostrará un pequeño formulario donde ingresará los datos de su tarjeta y realizará el pago correspondiente. 
 
+Examples: Datos de entrada
+|opción "Recaudos"|
+|informacion de tarjeta|
+|Token digital|
+
 Escenario: El usuario administrador recauda los pagos de los vecinos
 
 Dado que el usuario administrador desea agilizar el proceso de cobro de los gastos administrativos en el condominio
 Cuando el usuario administrador notifique a los vecinos sobre sus deudas y quiera verificar la relación de los pagos
 Entonces se le mostrará en la opción de Recaudos la relación de vecinos que ya cumplieron con su respectivo pago.
+
+Examples: Datos de salida
+|Notificacion sobre los ultimos pagos|
+|vecino del 104: cumplido|
+|vecino del 305: cumplido|
