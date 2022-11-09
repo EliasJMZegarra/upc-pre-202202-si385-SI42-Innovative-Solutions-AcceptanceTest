@@ -11,8 +11,19 @@ Cuando el administrador desee obtener dicha información
 Entonces deberá ingresar a la opción de recaudos.
 Y se le mostrará el historial de pagos.
 
+Examples: Datos de entrada
+|opción "Recaudos"|
+|Historial de pagos| 
+|Ultimos pagos: vecino del 203, vecino del 402, vecino del 603|
+
 Escenario: El administrador desea informar sobre una deuda a un vecino
 
 Dado que el usuario administrador revisa el historial de pagos del condominio y observa que un vecino presenta una deuda o está próximo a vencer  
 Cuando el administrador desee informarle sobre su deuda
 Entonces deberá ingresar a la opción de Avisos y enviar una notificación al vecino correspondiente 
+
+Examples: Datos de entrada
+|opción "Avisos"|
+
+Examples: Datos de salida
+|Notificacion al vecino correspondiente|
